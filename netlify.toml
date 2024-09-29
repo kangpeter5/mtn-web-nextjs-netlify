@@ -1,0 +1,39 @@
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[[redirects]]
+  from = "/twitch"
+  to = "https://playspectre.com/twitch-drops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/closedbeta"
+  to = "https://playspectre.com/twitch-drops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/cb"
+  to = "https://playspectre.com/twitch-drops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/twitchdrops"
+  to = "https://playspectre.com/twitch-drops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/beta"
+  to = "https://playspectre.com/twitch-drops"
+  status = 301
+  force = true
+  
+  [[redirects]]
+  from = "/leaderboards"
+  to = "https://playspectre.com"
+  status = 301
+  force = true
